@@ -1,8 +1,8 @@
 simple
 =====
 
-In chapter 6 of his thesis, Joe Armstrong provides examples of behaviour-based 
-applications. This is the collection of these examples.
+In chapter 6 of "Making reliable distributed systems in the presence of software errors" [dissertation](https://erlang.org/download/armstrong_thesis_2003.pdf), [Joe Armstrong](https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)) provides examples of behaviour-based 
+Erlang applications. This is the collection of these examples.
 
 Build
 -----
