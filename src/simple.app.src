@@ -1,0 +1,18 @@
+{application, simple,
+ [{description, "A simple application"},
+  {vsn, "1.0"},
+  {registered, [kv, my_simple_event_logger, 
+                my_simple_packet_assembler]},
+  {mod, { simple_app, []}},
+  {maxT, infinity},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [simple,kv, packet_assembler,
+              simple_sup, simple_logger]},
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
